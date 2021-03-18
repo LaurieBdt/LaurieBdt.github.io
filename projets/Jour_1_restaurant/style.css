@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+#principal {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    background-color:#EFAAAA;
+}
+#navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo1 {
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    background-color: rgb(255, 255, 255);
+    width: 125%;
+    height: 15vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pizza {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 10vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#menu {
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    
+}
+#menu a{
+    text-decoration: none;
+}
+#menu1 {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu2 {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu4 {
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dimosart {
+
+    width: 75px;
+    height: 35px;
+}
+.menu0 a{
+    text-decoration: none;
+}
+#commandez1 {
+    background-color: rgb(255, 0, 89);
+    width: 30%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#commandez1 a{
+    text-decoration: none;
+    color: white;
+}
+#img {
+    background:url("img/pizza1.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+#rose{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#central1 {
+    background-color: crimson;
+    width: 100%;
+    height: 60vh;
+
+ 
+}
+#central2 {
+    background-color: crimson;
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#confort {
+    background-color: crimson;
+    width: 50%;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#confort p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+    font-size: 72px;
+    line-height: 89px;
+
+    font-family: 'Rowdies', cursive;
+}
+#commandez2 {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 20vh;
+
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#commandez2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}

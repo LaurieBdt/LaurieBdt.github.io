@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#principal {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+#navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo1 {
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    background-color: rgb(255, 255, 255);
+    width: 125%;
+    height: 15vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo a {
+    text-decoration: none;
+}
+#pizza {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 10vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#pizza a {
+    text-decoration: none;
+}
+#menu {
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menu1 {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu2 {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu4 {
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dimosart {
+
+    width: 75px;
+    height: 35px;
+}
+.menu0 a{
+    text-decoration: none;
+}
+#commandez1 {
+    background-color: rgb(255, 0, 89);
+    width: 30%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#commandez1 a{
+    text-decoration: none;
+    color: white;
+}
+#central {
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+    height: 90vh;
+}
+#menu2 {
+    background-color: rgb(88, 88, 88);
+    width: 67%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#menu3 {
+    background-color: rgb(88, 88, 88);
+    width: 45%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu4 {
+    color: white;
+}
+#pizza1 {
+    background-color: rgb(88, 88, 88);
+    width: 60%;
+    height: 65vh;
+    display: flex;
+    
+}
+#gauche {
+    background-color: rgb(88, 88, 88);
+    width: 50%;
+    height: 65vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.carrer1 {
+    background-color: rgb(74, 139, 0);
+    width: 85%;
+    height: 15vh;
+
+    position: relative;
+}
+#prix1 {
+    position: absolute;
+    bottom: -31px;
+}
+.text {
+    color: white;
+}
+#prix2 {
+    position: absolute;
+    bottom: -31px;
+}
+#prix3 {
+    position: absolute;
+    bottom: -31px;
+}
+
+img {
+    width: 100%;
+    height: 20vh;
+}
+#droite {
+    background-color: rgb(88, 88, 88);
+    width: 50%;
+    height: 65vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.carrer2 {
+    background-color: rgb(139, 102, 0);
+    width: 85%;
+    height: 15vh;
+
+    position: relative;
+}
+#prix4 {
+    position: absolute;
+    bottom: -31px;
+}
+#prix5 {
+    position: absolute;
+    bottom: -31px;
+}
+#prix6 {
+    position: absolute;
+    bottom: -31px;
+}
+.prix {
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+}

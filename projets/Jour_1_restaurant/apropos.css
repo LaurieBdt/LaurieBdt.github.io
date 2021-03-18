@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal {
+
+    width: 100%;
+    height: 100vh;
+
+    background-color:#EFAAAA;
+}
+#navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo1 {
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    background-color: rgb(255, 255, 255);
+    width: 125%;
+    height: 15vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo a {
+    text-decoration: none;
+}
+#pizza {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 10vh;
+
+    font-family: 'Rowdies', cursive;
+    color: crimson;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#pizza a {
+    text-decoration: none;
+}
+#menu {
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menu1 {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu2 {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu3 {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu4 {
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dimosart {
+
+    width: 75px;
+    height: 35px;
+}
+.menu0 a{
+    text-decoration: none;
+}
+#commandez1 {
+    background-color: rgb(255, 0, 89);
+    width: 30%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#commandez1 a{
+    text-decoration: none;
+    color: white;
+}
+#central0 {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#central1 {
+
+    width: 95%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+#gauche1 {
+
+    width: 80%;
+    height: 50vh;
+
+    text-align: center;
+}
+#gauche2 {
+
+    width: 80%;
+    height: 50vh;
+
+    text-align: center;
+}
+#central2 {
+
+    width: 50%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+}
+#droite1 {
+
+    width: 90%;
+    height: 80vh;
+}
+
+#droite1 img {
+    width: 100%;
+
+}
