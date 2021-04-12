@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/ciel-étoilé.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* navbar */
+#navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: #090923;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    width: 20%;
+    height: 10vh;
+    
+    
+    text-align: center;
+    padding: 11px;
+}
+#logo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Rye', cursive;
+}
+#menu {
+    width: 30%;
+    height: 10vh;
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#principal {
+    width: 90%;
+    height: 100vh;
+    background-color: #090923;
+    display: flex;
+}
+#left {
+    width: 40%;
+    height: 100vh;
+
+}
+#connexion {
+    color:white;
+}
+#connexion h1 {
+    padding: 30px;
+}
+#identifiant1 {
+    color:white;
+    padding: 30px;
+}
+.valider {
+    width: 25%;
+    height: 40px;
+    background-color: #0A2D6D;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 235px;
+}
+.valider a{
+    text-decoration: none;
+    color: white;
+}
+#blanc {
+    width: 1px;
+    height: 100vh;
+    background-color: white;
+}
+#right {
+    width: 50%;
+    height: 100vh;
+
+}
+#inscription {
+    color: white;
+}
+#inscription h1 {
+    padding: 30px;
+}
+#identifiant2 {
+    color:white;
+    padding: 30px;
+}
+
+@media (max-width: 320px) {
+    /* Navbar responsiv*/
+    #navbar {
+        width: 100%;
+        height: 20px;
+    }
+    #logo {
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    #menu {
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    /* menu responsiv*/
+    #principal {
+        margin-top: 30px;
+        flex-direction: column;
+        height: 654px;
+    }
+    #left {
+        width: 40%;
+        height: 60vh;
+    }
+    #connexion {
+        padding: 5px;
+    }
+    #identifiant1 {
+        padding: 8px;
+    }
+    #identifiant1 p{
+        width: 190%;
+        height: 25px;
+    }
+    #blanc {
+        display: none;
+    }
+    #right {
+        width: 40%;
+        height: 60vh;
+    }
+    #inscription {
+        padding: 5px;
+    }
+    #identifiant2 {
+        padding: 8px;
+    }
+    #identifiant2 p {
+        width: 176%;
+    }
+    
+    .valider {
+        width: 130px;
+        margin-left: 130px;
+    }
+}
