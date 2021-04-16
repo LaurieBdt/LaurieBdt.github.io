@@ -283,10 +283,13 @@ section .title::after{
     content:"Ce que j'ai acquis";
 }
 
-
- .skills .skills-content .left p{
-   text-align: justify;
- }
+.text {
+  text-align: center;
+  font-weight: 900;
+}
+.skills .skills-content .left p{
+  text-align: center;
+}
  .left a{
   display: block;
   text-align: center;
