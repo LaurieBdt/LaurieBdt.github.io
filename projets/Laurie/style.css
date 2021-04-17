@@ -25,7 +25,7 @@ html{
 }
 .navbar.sticky{
   padding: 15px 0;
-  background:#df9bcd;
+  background:#90355d;
 }
 .navbar .max-width{
   display: flex;
@@ -38,7 +38,7 @@ html{
   font-weight: 600;
 }
 .navbar .logo a span{
-  color: #df9bcd;
+  color: #90355d;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -56,7 +56,7 @@ html{
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-  color: #df9bcd;
+  color: #90355d;
 }
 .navbar.sticky .menu li a:hover{
   color: #fff;
@@ -73,7 +73,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #df9bcd;
+    background: #90355d;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -95,7 +95,7 @@ html{
 /* home section styling */
 .home{
   display: flex;
-  background: url("images/pexels-photo-2310713.jpeg")no-repeat center;
+  background: url("./images/fond3.jfif")no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -119,22 +119,22 @@ html{
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
-  color: #df9bcd;
+  color: #90355d;
   font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #df9bcd;
+    background: #90355d;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #df9bcd;
+    border: 2px solid #90355d;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color:#df9bcd;
+    color:#90355d;
     background: none;
 }
 
@@ -181,7 +181,7 @@ section .title::after{
   bottom: -12px;
   left: 50%;
   font-size: 20px;
-  color: #df9bcd;
+  color: #90355d;
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -209,25 +209,25 @@ section .title::after{
   margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-  color: #df9bcd;
+  color: #90355d;
 }
 .about .about-content .right p{
   text-align: justify;
 }
 .about .about-content .right a{
   display: inline-block;
-    background: #df9bcd;
+    background: #90355d;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #df9bcd;
+    border: 2px solid #90355d;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #df9bcd;
+    color: #90355d;
     background: none;
 }
 
@@ -255,7 +255,7 @@ section .title::after{
       transition:all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #df9bcd;
+    background: #90355d;
 }
 .services .serv-content .card .box{
       transition: all 0.3 ease;
@@ -265,7 +265,7 @@ section .title::after{
 }
 .services .serv-content .card i{
   font-size: 50px;
-  color: #df9bcd;
+  color: #90355d;
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -294,7 +294,7 @@ section .title::after{
   display: block;
   text-align: center;
   margin: auto;
-  background: #df9bcd;
+  background: #90355d;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -302,12 +302,12 @@ section .title::after{
   margin-top: 20px;
   margin-right: 20px;
   border-radius: 6px;
-  border: 2px solid #df9bcd;
+  border: 2px solid #90355d;
   transition: all 0.3s ease;
   justify-content: center;
  }
  .skills .skills-content .left a:hover{
-     color: #df9bcd;
+     color: #90355d;
       background: none;
  }
 
@@ -323,7 +323,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: #df9bcd;
+    background: #90355d;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -344,7 +344,7 @@ section .title::after{
       width:150px;
       object-fit: cover;
       border-radius: 50%;
-      border: 5px solid #df9bcd;
+      border: 5px solid #90355d;
       transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -360,7 +360,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #df9bcd!important;
+    border: 2px solid #90355d!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -369,7 +369,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: #df9bcd!important;
+    background: #90355d!important;
 }
 
 /*contact section slyling */
@@ -402,7 +402,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #df9bcd;
+    color: #90355d;
 }
 .contact .contact-content .info .head{
   font-weight: 500;
@@ -450,8 +450,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid #df9bcd;
-    background: #df9bcd;
+    border: 2px solid #90355d;
+    background: #90355d;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -460,7 +460,7 @@ section .title::after{
     transition: all 0.3s ease ;
 }
 .contact .right form .button button:hover{
-    color:#df9bcd;
+    color:#90355d;
     background: none;
 }
 /*footer section styling */
@@ -470,7 +470,7 @@ footer{
     color: #fff;
 }
 footer span a{
-    color: #df9bcd;
+    color: #90355d;
     text-decoration: none;
 }
 footer span a:hover{
